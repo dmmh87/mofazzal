@@ -73,7 +73,7 @@ window.SITE = {
   "links": {
     "email": "hossain.mofazzal@seu.edu.bd",
     "email2": "provc@seu.edu.bd",
-    "scholar": "https://shorturl.at/TLZvD",
+    "scholar": "https://scholar.google.com/citations?user=IKxbBjIAAAAJ&hl=en",
     "orcid": "https://orcid.org/0000-0001-9679-3276",
     "scopus": "https://www.scopus.com/authid/detail.uri?authorId=54889166300",
     "university": "https://seu.edu.bd",
