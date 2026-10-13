@@ -340,6 +340,7 @@ window.SITE = {
   "sessionChair": [
     "8th Asia Conference on Energy and Electrical Engineering 2025",
     "ICCIT 2024",
+   "ICCIT 2025",
     "IEEE TENSYMP 2020 (virtual)",
     "ICAICT 2020, UIU (virtual)",
     "ICAEE 2019, Independent University, Bangladesh",
