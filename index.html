@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prof. M. Mofazzal Hossain | Pro-Vice Chancellor, Southeast University | Renewable Energy &amp; Photovoltaics</title>
+<meta name="description" content="Professor M. Mofazzal Hossain, Pro-Vice Chancellor of Southeast University, Bangladesh: research on solar cells, renewable energy, electric vehicles and sustainability; academic leadership and accreditation.">
+<meta name="author" content="Prof. M. Mofazzal Hossain">
+<meta name="theme-color" content="#0E2240">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Prof. M. Mofazzal Hossain, PhD">
+<meta property="og:description" content="Pro-Vice Chancellor, Southeast University, Bangladesh. Renewable energy, photovoltaic device design and sustainable electrification.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%230E2240'/><rect y='58' width='64' height='6' fill='%23B88A3E'/><text x='32' y='41' font-family='Georgia' font-size='26' font-weight='700' fill='white' text-anchor='middle'>MH</text></svg>">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"M. Mofazzal Hossain","honorificPrefix":"Prof.","honorificSuffix":"PhD","jobTitle":"Pro-Vice Chancellor","worksFor":{"@type":"CollegeOrUniversity","name":"Southeast University","address":"Dhaka, Bangladesh","url":"https://seu.edu.bd"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Kanazawa University"},{"@type":"CollegeOrUniversity","name":"Bangladesh University of Engineering and Technology"}],"email":"mailto:hossain.mofazzal@seu.edu.bd","knowsAbout":["Renewable Energy","Photovoltaics","Perovskite Solar Cells","Electric Vehicles","Thermal Plasma","Outcome-Based Education"],"sameAs":["https://orcid.org/0000-0001-9679-3276","https://www.scopus.com/authid/detail.uri?authorId=54889166300"]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- To change any text on this website, edit content.js (or use editor.html for research topics). -->
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="inner">
+    <a class="site-title" href="#home" id="site-title"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main"><ul id="navlist"></ul></nav>
+  </div>
+</header>
+<main id="main">
+  <noscript><div class="wrap" style="padding:48px 28px"><h1>Prof. M. Mofazzal Hossain, PhD</h1>
+  <p>Pro-Vice Chancellor, Southeast University, Dhaka, Bangladesh. Senior Member, IEEE.</p>
+  <p>Email: <a href="mailto:hossain.mofazzal@seu.edu.bd">hossain.mofazzal@seu.edu.bd</a> · <a href="https://orcid.org/0000-0001-9679-3276">ORCID</a></p>
+  <p>Please enable JavaScript to view the full website.</p></div></noscript>
+</main>
+<footer class="site-footer"><div class="wrap" id="footer"></div></footer>
+
+<script src="content.js"></script>
+<script>
+(function(){
+const S = window.SITE, L = S.links;
+const esc = s => String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const txt = s => esc(s).replace(/\[([^\]]*to be added[^\]]*)\]/gi,'<span class="todo">[$1]</span>');
+const bold = s => esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+const paras = d => (Array.isArray(d) ? d : String(d||"").split(/\n\s*\n/)).filter(x=>String(x).trim()).map(p=>`<p>${txt(p)}</p>`).join("");
+const NT = 'target="_blank" rel="noopener"';
+const slug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const li = arr => (arr||[]).map(x=>`<li>${txt(x)}</li>`).join("");
+const ledger = rows => `<ul class="ledger">${(rows||[]).map(r=>`<li><span class="when">${esc(r[0])}</span><div><b>${esc(r[1])}</b>${r[2]?`<span class="where">${esc(r[2])}</span>`:""}</div></li>`).join("")}</ul>`;
+const sec = (title, inner) => `<section id="s-${slug(title)}" data-toc="${esc(title)}"><h2>${esc(title)}</h2>${inner}</section>`;
+const profiles = () => [["ORCID",L.orcid],["Google Scholar",L.scholar],["Scopus",L.scopus],["LinkedIn",L.linkedin],["Southeast University",L.university]].filter(x=>x[1]);
+const cvBtn = (cls) => L.cvPdf ? `<a class="btn ${cls}" href="${esc(L.cvPdf)}" ${NT}>Download CV</a>` : "";
+
+const ALL = [["home","Home"],["research","Research"],["publications","Publications"],["leadership","Leadership"],["teaching","Teaching"],["service","Service"],["gallery","Gallery"],["contact","Contact"]];
+const PAGES = ALL.filter(p => p[0] !== "gallery" || (S.gallery && S.gallery.length));
+
+function figure(im){
+  return `<figure><a href="${esc(im.src)}" ${NT}><img src="${esc(im.src)}" alt="${esc(im.alt || im.caption || "")}" loading="lazy" data-check></a>${im.caption?`<figcaption>${txt(im.caption)}</figcaption>`:""}</figure>`;
+}
+function cite(p){
+  const tag = p.type==="chapter" ? `<span class="tag">Book chapter</span>` : "";
+  const doi = p.doi ? ` · <a href="https://doi.org/${esc(p.doi)}" ${NT}>DOI</a>` : "";
+  return `<li><span class="t">${esc(p.title)}</span><span class="a">${bold(p.authors)}</span><span class="v">${tag}${esc(p.venue)}${p.venue?", ":""}${esc(p.year)}${doi}</span></li>`;
+}
+function pageHead(eyebrow, title, desc){
+  return `<header class="pagehead"><div class="wrap"><span class="eyebrow">${esc(eyebrow)}</span><h1>${esc(title)}</h1>${desc?`<p>${esc(desc)}</p>`:""}</div></header>`;
+}
+const body = inner => `<div class="wrap body"><nav class="toc" aria-label="On this page"><span class="eyebrow">On this page</span><ul id="toc"></ul></nav><div class="content">${inner}</div></div>`;
+const topics = () => (S.researchTopics||[]).map(t => Object.assign({}, t, {id: t.id || slug(t.title)}));
+
+const views = {
+home(){
+  const portrait = S.photo ? `<img src="${esc(S.photo)}" alt="${esc(S.photoAlt)}">` : `<div class="ph" role="img" aria-label="${esc(S.shortName)}">${esc(S.initials)}</div>`;
+  const sel = S.publications.filter(p=>p.selected).sort((a,b)=>b.year-a.year);
+  return `<section class="hero"><div class="wrap"><div>
+      <span class="eyebrow">${esc(S.eyebrow || "")}</span>
+      <h1>${esc(S.name)}</h1><p class="headline">${esc(S.headline)}</p>
+      <p class="tagline">${esc(S.tagline)}</p>
+      <div class="actions"><a class="btn brass" href="#research">Research</a><a class="btn line" href="#publications">Publications</a><a class="btn line" href="#contact">Contact</a>${cvBtn("line")}</div>
+    </div><div class="portrait">${portrait}</div></div></section>
+  <div class="glance"><div class="wrap"><ul>${(S.glance||[]).map(g=>`<li><b>${esc(g[0])}</b><span>${esc(g[1])}</span></li>`).join("")}</ul></div></div>`
+  + body(
+    sec("About", `<p class="lead">${esc(S.intro[0])}</p>${S.intro.slice(1).map(p=>`<p>${esc(p)}</p>`).join("")}`)
+  + sec("Research focus", `<ul class="rindex">${topics().map((t,i)=>`<li><a href="#research/${esc(t.id)}"><span>${String(i+1).padStart(2,"0")}</span>${esc(t.title)}</a></li>`).join("")}</ul>`)
+  + sec("Selected publications", `<ul class="pubs">${sel.map(cite).join("")}</ul><p><a href="#publications"><b>All publications</b></a></p>`)
+  + sec("Education", ledger(S.education.map(e=>[e.years, e.degree, e.inst + (e.note? " · " + e.note : "")])))
+  + sec("Awards and honours", ledger(S.awards))
+  + sec("Contact", `<p>${S.contact.lines.map(esc).join("<br>")}</p><p><a href="mailto:${esc(L.email)}">${esc(L.email)}</a></p>`)
+  );
+},
+research(){
+  const T = topics();
+  return pageHead("Research", "Research", "From thermal plasma physics to clean energy: photovoltaic device design, electrification and sustainability.")
+  + body(
+    sec("Overview", `<p class="lead">${esc(S.researchIntro)}</p>`)
+  + sec("Research topics", `<ul class="rindex" style="margin-bottom:8px">${T.map((t,i)=>`<li><a href="#research/${esc(t.id)}"><span>${String(i+1).padStart(2,"0")}</span>${esc(t.title)}</a></li>`).join("")}</ul>
+      ${T.map((t,i)=>{
+        const imgs=t.images||[], first=imgs[0], rest=imgs.slice(1), n=String(i+1).padStart(2,"0");
+        const cls = first ? (i%2 ? "rtopic flip" : "rtopic") : "rtopic no-img";
+        const text = `<div class="rt-body">${first?`<span class="rt-num">${n}</span>`:""}<h3>${esc(t.title)}</h3>${t.summary?`<p class="summary">${txt(t.summary)}</p>`:""}${paras(t.description)}</div>`;
+        return `<article class="${cls}" id="t-${esc(t.id)}">${first?"":`<span class="rt-num" aria-hidden="true">${n}</span>`}${text}${first?`<div class="rt-media">${figure(first)}</div>`:""}${rest.length?`<div class="rt-more">${rest.map(figure).join("")}</div>`:""}</article>`;
+      }).join("")}`)
+  + sec("Current projects", `<ul class="list">${li(S.currentFocus)}</ul>`)
+  + sec("Supervision", `<ul class="list">${li(S.supervision)}</ul>`)
+  );
+},
+publications(){
+  const c = t => S.publications.filter(p=>p.type===t).length;
+  return pageHead("Publications", "Publications", `${c("journal")} journal articles, ${c("conference")} conference papers and ${c("chapter")} book chapters, newest first.`)
+  + `<div class="wrap" style="padding-top:36px;padding-bottom:80px"><div class="content" style="max-width:900px">
+    <p>Citation metrics and full texts: ${profiles().filter(x=>/ORCID|Scholar|Scopus/.test(x[0])).map(x=>`<a href="${esc(x[1])}" ${NT}>${x[0]}</a>`).join(" · ")}</p>
+    <div class="filters"><input id="q" type="search" placeholder="Search titles, authors or venues" aria-label="Search publications">
+    <div class="seg" role="group" aria-label="Publication type"><button data-t="all" aria-pressed="true">All</button><button data-t="journal" aria-pressed="false">Journal</button><button data-t="conference" aria-pressed="false">Conference</button><button data-t="chapter" aria-pressed="false">Book chapters</button></div></div>
+    <div id="publist"></div></div></div>`;
+},
+leadership(){
+  return pageHead("Academic leadership", "Leadership", S.leadershipIntro)
+  + body(
+    sec("Leadership roles", ledger(S.leadership))
+  + sec("University committees", ledger(S.committees))
+  + sec("External academic roles", `<ul class="list">${li(S.external)}</ul>`)
+  + sec("Accreditation and quality assurance", `<ul class="list">${li(S.accreditation)}</ul>`)
+  + sec("Academic career", ledger(S.academicCareer))
+  );
+},
+teaching(){
+  return pageHead("Teaching", "Teaching and supervision", "")
+  + body(
+    sec("Overview", `<p class="lead">${esc(S.teachingIntro)}</p>`)
+  + sec("Undergraduate courses", `<ul class="list cols">${li(S.coursesUG)}</ul>`)
+  + sec("Graduate courses", `<ul class="list">${li(S.coursesPG)}</ul>`)
+  + sec("Supervision", `<ul class="list">${li(S.supervision)}</ul>`)
+  + sec("Training in outcome-based education", `<ul class="list">${li(S.obeTraining)}</ul>`)
+  );
+},
+service(){
+  return pageHead("Professional service", "Service", "Conference leadership, invited talks, editorial work and professional memberships.")
+  + body(
+    sec("Conference leadership", `<ul class="list">${li(S.conferenceLeadership)}</ul>`)
+  + sec("Keynote, plenary and invited talks", `<ul class="list">${li(S.talks)}</ul>`)
+  + sec("Technical session chair", `<ul class="list cols">${li(S.sessionChair)}</ul>`)
+  + sec("Editorial and reviewing", `<ul class="list">${li(S.editorial)}</ul>`)
+  + sec("Memberships", `<ul class="list">${li(S.memberships)}</ul>`)
+  + sec("Fellowships", `<ul class="list">${li(S.fellowships)}</ul>`)
+  );
+},
+gallery(){
+  return pageHead("Gallery", "Gallery", "") + `<div class="wrap" style="padding:40px 28px 80px"><div class="gallery">${(S.gallery||[]).map(figure).join("")}</div></div>`;
+},
+contact(){
+  return pageHead("Contact", "Contact", "")
+  + body(
+    sec("Office", `<p><b>${esc(S.name)}</b><br>${S.contact.lines.map(esc).join("<br>")}</p><p>Room: ${txt(S.contact.office)}</p>`)
+  + sec("Email", `<p><a href="mailto:${esc(L.email)}">${esc(L.email)}</a>${L.email2?`<br><a href="mailto:${esc(L.email2)}">${esc(L.email2)}</a> <span class="meta">(Office of the Pro-Vice Chancellor)</span>`:""}</p><p><a class="btn navy" href="mailto:${esc(L.email)}">Send an email</a></p>`)
+  + sec("Profiles", `<ul class="list">${profiles().map(x=>`<li><a href="${esc(x[1])}" ${NT}>${x[0]}</a></li>`).join("")}</ul>`)
+  );
+}
+};
+
+function renderPubs(){
+  const box=document.getElementById("publist"); if(!box) return;
+  const q=(document.getElementById("q").value||"").toLowerCase().trim();
+  const t=document.querySelector('.seg button[aria-pressed="true"]').dataset.t;
+  const list=S.publications.filter(p=>(t==="all"||p.type===t)&&(!q||(p.title+" "+p.authors+" "+p.venue+" "+p.year).toLowerCase().includes(q))).sort((a,b)=>b.year-a.year);
+  let h=`<p class="count" aria-live="polite">${list.length} ${list.length===1?"item":"items"}</p>`;
+  const years=[...new Set(list.map(p=>p.year))];
+  years.forEach(y=>{ h+=`<div class="pubyear"><div class="y">${esc(y)}</div><ul class="pubs">${list.filter(p=>p.year===y).map(cite).join("")}</ul></div>`; });
+  if(!list.length) h+=`<p>No publications match. Clear the search box or choose All.</p>`;
+  box.innerHTML=h;
+}
+
+const nav=document.getElementById("nav"), toggle=document.querySelector(".nav-toggle");
+function show(){
+  const [id, sub] = (location.hash||"#home").slice(1).split("/");
+  const page = views[id] && PAGES.some(p=>p[0]===id) ? id : "home";
+  const main=document.getElementById("main");
+  main.innerHTML = views[page]();
+  const toc=document.getElementById("toc");
+  if(toc) toc.innerHTML=[...main.querySelectorAll("section[data-toc]")].map(s=>`<li><a href="#${page}/${s.id}">${esc(s.dataset.toc)}</a></li>`).join("");
+  document.querySelectorAll("#navlist a").forEach(a=>{ if(a.dataset.p===page) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+  const label=PAGES.find(p=>p[0]===page)[1];
+  document.title = page==="home" ? `${S.name} | ${S.headline}` : `${label} | ${S.name}`;
+  if(page==="publications"){
+    document.getElementById("q").addEventListener("input",renderPubs);
+    document.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");renderPubs();}));
+    renderPubs();
+  }
+  main.querySelectorAll("img[data-check]").forEach(img=>{
+    const fail=()=>{ const f=img.closest("figure"); if(!f) return; const d=document.createElement("div"); d.className="img-missing"; d.textContent="Picture not found: "+img.getAttribute("src")+". Upload this file to the repository."; f.replaceWith(d); };
+    if(img.complete && img.naturalWidth===0) fail(); else img.addEventListener("error",fail,{once:true});
+  });
+  nav.classList.remove("open"); toggle.setAttribute("aria-expanded","false");
+  const target = sub && (document.getElementById(sub) || document.getElementById("t-"+sub));
+  if(target) target.scrollIntoView(); else window.scrollTo(0,0);
+}
+
+document.getElementById("site-title").innerHTML = `<span class="mono" aria-hidden="true">${esc(S.initials)}</span><span class="t">${esc(S.shortName)}<small>${esc(S.headline)}</small></span>`;
+document.getElementById("navlist").innerHTML = PAGES.map(p=>`<li><a href="#${p[0]}" data-p="${p[0]}">${p[1]}</a></li>`).join("");
+document.getElementById("footer").innerHTML = `<div class="cols">
+  <div><p class="name">${esc(S.name)}</p><p>${esc(S.headline)}<br>${S.contact.lines.slice(1).map(esc).join("<br>")}</p><p><a href="mailto:${esc(L.email)}">${esc(L.email)}</a></p></div>
+  <div><h2>Explore</h2><ul>${PAGES.filter(p=>p[0]!=="home").map(p=>`<li><a href="#${p[0]}">${p[1]}</a></li>`).join("")}</ul></div>
+  <div><h2>Profiles</h2><ul>${profiles().map(x=>`<li><a href="${esc(x[1])}" ${NT}>${x[0]}</a></li>`).join("")}${L.cvPdf?`<li><a href="${esc(L.cvPdf)}" ${NT}>Curriculum vitae (PDF)</a></li>`:""}</ul></div></div>
+  <div class="base">© ${new Date().getFullYear()} ${esc(S.name)}</div>`;
+toggle.addEventListener("click",()=>{const o=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",o);});
+window.addEventListener("hashchange",show);
+show();
+})();
+</script>
+</body>
+</html>
